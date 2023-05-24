@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
+import './app.css';
 import Row from './row';
 import Banner from './banner';
 import requests from './requests';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       
       <Banner/>
 

@@ -39,7 +39,7 @@ function Banner() {
                 <h1 className='banner_title'>
                     {data?.title || data?.name || data?.original_name}
                 </h1>
-                <div className="banner_buttons">
+                <div>
                     <button className="banner_buttons">Play</button>
                     <button className="banner_buttons">My List</button>
                 </div>
@@ -47,7 +47,7 @@ function Banner() {
                     {truncate(data?.overview, 150)}
                 </h1>
             </div>
-        
+            <div className='banner_fadeBottom'/>
         </header>
     )
 }
