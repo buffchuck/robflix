@@ -7,11 +7,9 @@ function Row({ title, fetchUrl, isLargeRow }) {
 
     useEffect(() => {
         const fetch = require('node-fetch');
-        console.log(fetchUrl);
         fetch(fetchUrl) // Use fetchUrl prop
           .then(res => res.json())
           .then(json => {
-              console.table(json.results);
               setData(json.results);
           })
           .catch(err => console.error('error:' + err));
