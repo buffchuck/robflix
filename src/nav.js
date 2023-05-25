@@ -20,7 +20,7 @@ function Nav() {
   return (
     <div className={`nav ${show && "nav_black"}`}>
         <img className='nav_logo' 
-        src={process.env.PUBLIC_URL + '/ROBFLIX.png'} 
+        src={process.env.PUBLIC_URL + '/robflix.png'} 
         alt='Robflix Logo' 
         />
 
